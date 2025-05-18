@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lead-IT</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+
+<body class="">
+    <!-- Navbar -->
+    <nav class="navbar bg-white shadow sticky top-0 z-50 px-6">
+        <div class="flex-1">
+          <a class="text-3xl font-bold text-black">
+            <span class="text-black">&lt;LEAD-</span><span class="text-red-500">IT</span><span class="text-black">&gt;</span>
+          </a>
+        </div>
+    
+        <!-- Desktop Menu -->
+        <div class="hidden lg:flex">
+          <ul class="menu menu-horizontal px-1 font-medium">
+            <li><a class="text-red-600 border-b-2 border-red-600">Home</a></li>
+            <li><a>About Us</a></li>
+            <li><a>Services</a></li>
+            <li><a>Careers</a></li>
+            <li><a>Contact Us</a></li>
+          </ul>
+        </div>
+    
+        <!-- Mobile Menu -->
+        <div class="dropdown dropdown-end lg:hidden">
+          <label tabindex="0" class="btn btn-ghost">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" 
+                 viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" 
+                 stroke-linejoin="round" stroke-width="2" 
+                 d="M4 6h16M4 12h16M4 18h16"/></svg>
+          </label>
+          <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+            <li><a class="text-red-600">Home</a></li>
+            <li><a>About Us</a></li>
+            <li><a>Services</a></li>
+            <li><a>Careers</a></li>
+            <li><a>Contact Us</a></li>
+          </ul>
+        </div>
+    </nav>
+    <!-- Hero Section -->
+    <section class="max-w-7xl mx-auto">
+        <section class="py-20 px-6 max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-10">
+            <div class="md:w-1/2">
+                <h1 class="text-3xl md:text-4xl font-bold mb-4">
+                    <span class="text-red-600">Lead-IT</span> - Your trusted Software<br />
+                    Development Partner
+                </h1>
+                <p class="text-xl text-gray-600">
+                    A top tier software development team assisting owners and decision makers to implement digital
+                    initiatives to achieve lasting financial success
+                </p>
+            </div>
+            <div class="md:w-1/2">
+                <img src="/images/home-banner.png" alt="Hero Illustration" class="w-full max-w-md mx-auto">
+            </div>
+        </section>
+    </section>
+
+    <section class="max-w-5xl mx-auto bg-white text-gray-800">
+        <div class="py-16 px-6">
+            <h2 class="text-3xl font-bold text-center mb-4">OUR SERVICES</h2>
+            <p class="text-center text-gray-600 max-w-3xl mx-auto mb-16">
+                We build software development teams that grow with our clients, from the early stages to whatever they
+                aspire to be. Our expertise includes front-end, backend, database, and server solutions for mobile, web,
+                and desktop applications. Our purpose is to provide our clients with expert guidance and to build
+                software vital to their organizations.
+            </p>
+
+
+            <div class="">
+                <!-- Service 1 -->
+                <div class="flex flex-col md:flex-row items-center mb-20 gap-10">
+                    <img src="/images/home-dev.png" alt="Custom Software" class="w-full md:w-1/2 max-w-md">
+                    <div class="md:w-1/2">
+                        <h3 class="text-xl font-bold text-red-600 mb-2">Custom Software Development</h3>
+                        <p class="text-gray-700">
+                            Lead-IT helps you create diverse and complex software solutions for your business needs.
+                            Listening to your ideas, we implement and create custom software solutions from scratch,
+                            designed especially for your business. With Lead-IT, you get quality software and perfect
+                            service
+                            every time.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="flex flex-col-reverse md:flex-row items-center mb-20 gap-10">
+                    <div class="md:w-1/2">
+                        <h3 class="text-xl font-bold text-red-600 mb-2">Web Application Development</h3>
+                        <p class="text-gray-700">
+                            Lead-IT looks beyond conventional solutions to develop disruptive web products. Our skilled
+                            and
+                            dedicated web development team understands your needs and leverages the dynamism of modern
+                            web
+                            frameworks to create business-valued web applications.
+                        </p>
+                    </div>
+                    <img src="/images/home-web.png" alt="Web App Development" class="w-full md:w-1/2 max-w-md">
+                </div>
+
+                <!-- Service 3 -->
+                <div class="flex flex-col md:flex-row items-center mb-20 gap-10">
+                    <img src="/images/home-mobile.png" alt="Mobile App" class="w-full md:w-1/2 max-w-md">
+                    <div class="md:w-1/2">
+                        <h3 class="text-xl font-bold text-red-600 mb-2">Mobile Application Development</h3>
+                        <p class="text-gray-700">
+                            Our expertise in custom mobile app development gives our clients the opportunity to pack
+                            incredible functionality into their customer’s hands. We develop apps that perform across
+                            different mobile devices and operating systems. We are experts at Swift/Objective-C to build
+                            native iOS apps and Java/Kotlin for native Android development. For cross-platform and
+                            hybrid
+                            development our expertise includes, but are not limited to, Ionic, Xamarin, and React
+                            Native.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Service 4 -->
+                <div class="flex flex-col-reverse md:flex-row items-center gap-10">
+                    <div class="md:w-1/2">
+                        <h3 class="text-xl font-bold text-red-600 mb-2">Quality Assurance & Testing</h3>
+                        <p class="text-gray-700">
+                            Treading on Agile development methodologies and Rational Unified Process practices in
+                            testing,
+                            Lead-IT ensures highest quality of software solutions to you. Our software testing strategy
+                            ensures every component of your software are free of bugs and issues.
+                        </p>
+                    </div>
+                    <img src="/images/home-qa.png" alt="QA Testing" class="w-full md:w-1/2 max-w-md">
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section class="bg-gray-100 text-gray-800">
+        <h2 class="text-3xl font-bold text-center mb-4 pt-4">OUR CLIENTS</h2>
+        <div class="py-16 px-4 flex justify-center ">
+
+            <div class="carousel w-full max-w-4xl justify-center ">
+
+                <!-- Slide 1 -->
+                <div id="slide1" class="carousel-item relative w-full justify-center">
+                    <div class="flex justify-center items-center space-x-12 w-full">
+                        <img src="/images/1.png" class="h-16" alt="InfoNet" />
+                        <img src="/images/2.png" class="h-16" alt="Metageek" />
+                        <img src="/images/3.png" class="h-16" alt="Insight Formation Inc." />
+                    </div>
+                    <a href="#slide3"
+                        class="absolute left-5 top-1/2 transform -translate-y-1/2 text-3xl text-gray-400">&#10094;</a>
+                    <a href="#slide2"
+                        class="absolute right-5 top-1/2 transform -translate-y-1/2 text-3xl text-gray-400">&#10095;</a>
+                </div>
+
+                <!-- Slide 2 -->
+                <div id="slide2" class="carousel-item relative w-full justify-center">
+                    <div class="flex justify-center items-center space-x-12 w-full">
+                        <img src="/images/4.png" class="h-16" alt="Client 4" />
+                        <img src="/images/5.png" class="h-16" alt="Client 5" />
+                        <img src="/images/6.png" class="h-16" alt="Client 6" />
+                    </div>
+                    <a href="#slide1"
+                        class="absolute left-5 top-1/2 transform -translate-y-1/2 text-3xl text-gray-400">&#10094;</a>
+                    <a href="#slide3"
+                        class="absolute right-5 top-1/2 transform -translate-y-1/2 text-3xl text-gray-400">&#10095;</a>
+                </div>
+
+                <!-- Slide 3 -->
+                <div id="slide3" class="carousel-item relative w-full justify-center">
+                    <div class="flex justify-center items-center space-x-12 w-full">
+                        <img src="/images/1.png" class="h-16" alt="Client 7" />
+                        <img src="/images/2.png" class="h-16" alt="Client 8" />
+                        <img src="/images/3.png" class="h-16" alt="Client 9" />
+                    </div>
+                    <a href="#slide2"
+                        class="absolute left-5 top-1/2 transform -translate-y-1/2 text-3xl text-gray-400">&#10094;</a>
+                    <a href="#slide1"
+                        class="absolute right-5 top-1/2 transform -translate-y-1/2 text-3xl text-gray-400">&#10095;</a>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+
+    <section class="bg-white text-gray-800 font-sans">
+        <div class="py-16 px-6 md:px-16 max-w-7xl mx-auto">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-6">WHAT WE OFFER</h2>
+            <p class="text-center text-lg text-gray-600 max-w-3xl mx-auto mb-12">
+                Lead-IT works as an extension of your development and testing team. We will work together to solve your
+                business cases and get the maximum value of your budget. One of our differentiating qualities is that we
+                take the time to understand the particular challenges, difficulties, and needs of your business.
+            </p>
+
+            <div class="grid gap-10 md:grid-cols-2">
+                <!-- Qualified Engineers -->
+                <div class="flex flex-col items-center text-center">
+                    <img class="w-full bg-[#F6F6F6]" src="/images/home-engineers.png" alt="Qualified Engineers"
+                        class="w-64 h-auto mb-6">
+                    <h3 class="text-xl font-bold text-red-600 mb-2">Qualified Engineers</h3>
+                    <p class="text-gray-700">
+                        Lead-IT is a team of 350+ software experts. We continue to strive in being the best in the
+                        industry by hiring engineers from renowned universities. Having team members experienced in a
+                        wide range of technology stacks enables us to meet different customers' needs.
+                    </p>
+                </div>
+
+                <!-- Dedicated Team -->
+                <div class="flex flex-col items-center text-center">
+                    <img class="w-full bg-[#F6F6F6] " src="/images/home-team.png" alt="Dedicated Team"
+                        class="w-64 h-auto mb-6">
+                    <h3 class="text-xl font-bold text-red-600 mb-2">Dedicated Team</h3>
+                    <p class="text-gray-700">
+                        Our in-house team is yours too. We will jump in and ramp up quickly. Your goals become our
+                        goals. We will navigate the risks of software development together.
+                    </p>
+                </div>
+
+                <!-- Collaborative Process -->
+                <div class="flex flex-col items-center text-center">
+                    <img class="w-full bg-[#F6F6F6]" src="/images/home-collaboration.png" alt="Collaborative Process"
+                        class="w-64 h-auto mb-6">
+                    <h3 class="text-xl font-bold text-red-600 mb-2">Collaborative Process</h3>
+                    <p class="text-gray-700">
+                        We work as an extension of your team, not as a vendor. We help you to participate in a deeply
+                        collaborative process to develop the desired product. We will be in constant communication with
+                        your team every step of the way.
+                    </p>
+                </div>
+
+                <!-- Continuous Supervision -->
+                <div class="flex flex-col items-center text-center">
+                    <img class="w-full bg-[#F6F6F6]" src="/images/home-supervision.png" alt="Continuous Supervision"
+                        class="w-64 h-auto mb-6">
+                    <h3 class="text-xl font-bold text-red-600 mb-2">Continuous Supervision</h3>
+                    <p class="text-gray-700">
+                        A project manager will be involved in the entire lifecycle of your project to plan, organize,
+                        control, and deploy key deliverables according to your desired milestones, including process
+                        improvement analysis and implementation.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bg-gray-50 py-16">
+        <div class="max-w-7xl mx-auto px-4 flex flex-col md:flex-row items-center justify-between gap-8">
+            <!-- Left Text -->
+            <div class="w-11/12 md:w-1/2 text-center md:text-left">
+                <h2 class="text-6xl font-bold md:text-8xl font-bold text-gray-900 leading-tight">
+                    WANT US <br>
+                    TO <span class="text-red-600">CALL</span><br>
+                    YOU?
+                </h2>
+            </div>
+
+            <!-- Vertical Divider -->
+            <div class="hidden md:block w-px h-50 bg-red-600"></div>
+
+            <!-- Right Form -->
+            <form class="w-full md:w-1/2 space-y-4">
+                <input type="text" placeholder="Name"
+                    class="w-full border border-gray-300 px-4 py-3  focus:outline-none focus:ring-2 focus:ring-red-500" />
+                <input type="text" placeholder="Company"
+                    class="w-full border border-gray-300 px-4 py-3  focus:outline-none focus:ring-2 focus:ring-red-500" />
+                <input type="email" placeholder="Email"
+                    class="w-full border border-gray-300 px-4 py-3  focus:outline-none focus:ring-2 focus:ring-red-500" />
+                <input type="tel" placeholder="Phone"
+                    class="w-full border border-gray-300 px-4 py-3  focus:outline-none focus:ring-2 focus:ring-red-500" />
+                <textarea rows="4" placeholder="Message"
+                    class="w-full border border-gray-300 px-4 py-3  focus:outline-none focus:ring-2 focus:ring-red-500"></textarea>
+
+                <button type="submit"
+                    class="bg-red-600 hover:bg-red-700 text-white font-bold py-3 px-6 transition duration-300">
+                    SEND
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="bg-black text-white py-12 px-6 md:px-16">
+        <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-10">
+            <!-- Logo and Overview -->
+            <div class="space-y-4">
+                <img src="/images/htiedubd_logo.jpg" alt="bdtask logo" class="h-10">
+                <p class="text-gray-300">Best Software Development Company<br>To Architect The Dream For Next
+                    Generation.</p>
+                <div class="flex space-x-6 pt-2 text-white">
+                    <div>
+                        <p class="text-xl font-bold">11,000+</p>
+                        <p class="text-gray-400 text-sm">items sold</p>
+                    </div>
+                    <div>
+                        <p class="text-xl font-bold">40+</p>
+                        <p class="text-gray-400 text-sm">Products</p>
+                    </div>
+                </div>
+                <div class="flex space-x-3 pt-4">
+                    <a href="#" class="bg-gray-800 p-2 rounded"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="bg-gray-800 p-2 rounded"><i class="fab fa-pinterest-p"></i></a>
+                    <a href="#" class="bg-gray-800 p-2 rounded"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" class="bg-gray-800 p-2 rounded"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="bg-gray-800 p-2 rounded"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+
+            <!-- Address -->
+            <div class="text-gray-300 space-y-4">
+                <h3 class="text-white font-semibold text-lg">Address</h3>
+                <div>
+                    <p class="font-semibold text-white">Bangladesh Office</p>
+                    <p>House-4, Road-5, Block-C, Mirpur-10 (Near Hope school),<br>Dhaka, Bangladesh, Mirpur 1216</p>
+                </div>
+                <div>
+                    <p>Email:</p>
+                    <p>leadbdit@gmail.com</p>
+                </div>
+            </div>
+
+            <!-- Phone -->
+            <div class="text-gray-300 space-y-4">
+                <h3 class="text-white font-semibold text-lg">Phone</h3>
+                <p>Service:</p>
+                <ul class="space-y-1">
+                    <li>+880-168-405-5876</li>
+                </ul>
+            </div>
+
+            <!-- Google Map -->
+            <div>
+                <h3 class="text-white font-semibold text-lg mb-2">Find Us</h3>
+                <iframe
+                    src="https://www.google.com/maps?q=House-4,+Road-5,+Block-C,+Mirpur-10,+Dhaka,+Bangladesh&output=embed"
+                    width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade" class="rounded-lg shadow-md"></iframe>
+            </div>
+        </div>
+        <!-- Copyright -->
+        <div class="mt-10 border-t border-gray-700 pt-6 text-center text-gray-400 text-sm">
+            &copy; 2025 Lead-IT. All rights reserved.
+        </div>
+    </footer>
+
+</body>
+
+</html>
